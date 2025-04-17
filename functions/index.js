@@ -167,7 +167,6 @@ exports.SetGetCity = onRequest({ cors: true }, async (req, res) => {
 });
 
 
-// ANALYZER + UPLOADER
 exports.UploadImage = onRequest({ cors: true }, async (req, res) => {
   try {
     const uid = await checkAuth(req);
@@ -411,7 +410,6 @@ exports.AnalyzeImage = onRequest({ cors: true } ,async (req, res) => {
 }); 
 
 
-// GENERATION + SAVE OUTFIT
 exports.GenerateOutFitByParam = onRequest({ cors: true }, async (req, res) => {
   try {
     const uid = await checkAuth(req);
@@ -685,7 +683,6 @@ exports.SaveOutfitSet = onRequest({ cors: true }, async (req, res) => {
 });
 
 
-// ALL ITEMS / SETS
 exports.GetLatestUserItems = onRequest({ cors: true }, async (req, res) => {
   try {
     const uid = await checkAuth(req);
@@ -761,7 +758,6 @@ exports.GetLatestOutfitSets = onRequest({ cors: true }, async (req, res) => {
 });
 
 
-// LATEST ITEMS / SETS
 exports.GetAllUserItems = onRequest({ cors: true }, async (req, res) => {
   try {
     const uid = await checkAuth(req);
@@ -833,7 +829,6 @@ exports.GetAllOutfitSets = onRequest({ cors: true }, async (req, res) => {
 
 
 
-// ITEM CRUD
 exports.GetItem = onRequest({ cors: true }, async (req, res) => {
   try {
     const uid = await checkAuth(req);
@@ -983,7 +978,6 @@ exports.RemoveItem = onRequest({ cors: true }, async (req, res) => {
 });
 
 
-// OUFIT CRUD
 
 exports.GetOufit = onRequest({ cors: true }, async (req, res) => {
   try {
