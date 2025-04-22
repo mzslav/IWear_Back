@@ -29,7 +29,7 @@ The following environment variables need to be configured:
 
 ## Collaboration
 
-This project is part of a full-stack mobile application developed in collaboration with @RomanHuriev (https://github.com/RomanHuriev).
+This project is part of a full-stack mobile application developed in collaboration with @[RomanHuriev](https://github.com/RomanHuriev).
 
 - Frontend repository: IWear (https://github.com/RomanHuriev/IWear)
 
