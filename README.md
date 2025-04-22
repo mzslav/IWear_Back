@@ -25,3 +25,12 @@ The following environment variables need to be configured:
 - **Firebase Storage**: Image storage solution
 - **AI Integration**: Image analysis via OpenRouter API
 - **Weather API**: Integration with OpenWeatherMap
+
+
+## Collaboration
+
+This project is part of a full-stack mobile application developed in collaboration with @RomanHuriev (https://github.com/RomanHuriev).
+
+- Frontend repository: IWear (https://github.com/RomanHuriev/IWear)
+
+The frontend is built with React-Native and CI/CD Expo
